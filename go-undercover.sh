@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DIR=~/.local/share/go-undercover/
-SHARE_DIR=/usr/share/go-undercover/
+SHARE_DIR=$PREFIX/share/go-undercover/
 CONF_FILES=$SHARE_DIR/config/
 XFCE4_PANEL_PROFILES=$SHARE_DIR/scripts/xfce4-desktop-profiles.py
 GO_UNDERCOVER_PANEL_PROFILE=$SHARE_DIR/go-undercover-panel-profile.tar.bz
